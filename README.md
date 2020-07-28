@@ -2,6 +2,12 @@
 
 It's an integration middleware for connecting dialogflow chatbot to whatsapp api(here provided by zoko) with concurrency handler.
 
+## ✨ Features
+
+- concurrency handler
+- allows to precess incoming dialogflow intent
+- dockerized deployment
+
 ## Prerequisites
 
 - `node` and `npm`
