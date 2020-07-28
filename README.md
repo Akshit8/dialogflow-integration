@@ -1,6 +1,6 @@
 # dialogflow-integration
 
-It's an integration middleware for connecting dialogflow chatbot to whatsapp api(here provided by zoko) with concurrency handler.
+It's an integration middleware for connecting dialogflow chatbot to whatsapp API(here provided by zoko) with concurrency handler. It uses webhook which recieves event driven notification from whatsapp API provider and thus helps you build a robust 2-way communication system at your end.
 
 ## ✨ Features
 
