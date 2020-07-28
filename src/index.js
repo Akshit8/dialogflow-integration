@@ -19,7 +19,7 @@ app.use(multer().array());
 app.use(cors());
 
 app.get('/test', (req, res) => {
-    res.send('API 1 working');
+    res.send('API working');
 });
 
 app.use('/integration', integration);
