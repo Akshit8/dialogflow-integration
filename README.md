@@ -35,6 +35,5 @@ Start the service with docker-compose
 docker-compose up -d
 ```
 ### Step4: configuring webhook
-```
 configure webhook woth your whatsapp API provider to get messages from the user and forward it to chatbot.
-```
+
