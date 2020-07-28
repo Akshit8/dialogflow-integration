@@ -1,11 +1,11 @@
-# dialogflow-integration
+# Dialogflow-integration
 
 It's an integration middleware for connecting dialogflow chatbot to whatsapp API(here provided by zoko) with concurrency handler. It uses webhook which recieves event driven notification from whatsapp API provider and thus helps you build a robust 2-way communication system at your end.
 
 ## ✨ Features
 
 - concurrency handler
-- allows to precess incoming dialogflow intent
+- allows to process incoming dialogflow intent
 - dockerized deployment
 
 ## Prerequisites
@@ -33,4 +33,8 @@ To run the server you will also need to provide the `.env` variables
 Start the service with docker-compose
 ```sh
 docker-compose up -d
+```
+### Step4: configuring webhook
+```
+configure webhook woth your whatsapp API provider to get messages from the user and forward it to chatbot.
 ```
