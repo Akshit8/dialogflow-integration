@@ -1,6 +1,6 @@
 const dialogflow = require('dialogflow');
 const { DIALOGFLOW_PROJECT_ID, DIALOGFLOW_CLIENT_EMAIL, DIALOGFLOW_PRIVATE_KEY } = require('../../config');
-const { sendTextMessage } = require('../zoko/sendMessage');
+const { sendTextMessage } = require('../whatsapp/sendMessage');
 
 exports.getIntent = async (requestBody) => {
     const { text, customer } = requestBody;
